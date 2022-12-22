@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="./Calculadora.js"></script>
+    <link rel="stylesheet" href="calculadora.css" />
+</head>
+
+<body class="body">
+
+    <div class="container">
+        <input id="result" class="item1" disabled/>
+    </div>
+    <div class="container2">
+        <button id="seven" class="item" value="7" onclick="addNumber (7)">7</button>
+        <button id="eight" class="item" value="8"onclick="addNumber(8)">8</button>
+        <button id="nine" class="item" value="9" onclick="addNumber(9)">9</button>
+        <button id="plus" class="item2" value="+" onclick="addSimbol(10)">+</button>
+    </div>
+    <div class="container3">
+        <button id="four" class="item" value="4" onclick="addNumber(4)">4</button>
+        <button id="five" class="item" value="5" onclick="addNumber(5)">5</button>
+        <button id="six" class="item" value="6" onclick="addNumber(6)">6</button>
+        <button id="resta" class="item2" value="-" onclick="addSimbol(11)">-</button>
+    </div>
+    <div class="container4">
+        <button id="one" class="item" value="1" onclick="addNumber(1)">1</button>
+        <button id="two" class="item" value="2" onclick="addNumber(2)">2</button>
+        <button id="three" class="item" value="3" onclick="addNumber(3)">3</button>
+        <button id="multi" class="item2" value="*" onclick="addSimbol(13)">*</button>
+    </div>
+    <div class="container5">
+        <button id="restart" class="item2" value="" onclick="reestablecer()">C</button>
+        <button id="zero" class="item" value="0" onclick="addNumber(0)">0</button>
+        <button id="resta" class="item2" value="=" onclick="igual(10)">=</button>
+        <button id="div" class="item2" value="/" onclick="addSimbol(12)">/</button>
+        
+    </div>
+    
+</body>
+
+</html>

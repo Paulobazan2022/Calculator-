@@ -1,0 +1,75 @@
+/* calculadora */
+.container{
+    display: flex;
+    flex-flow: row;
+    width: 100%;
+    height: 200px;
+    justify-content:center;
+    align-items: flex-end;
+}
+
+.item1 {
+    height: 80px;
+    width: 315px;
+    font-size:x-large;
+    border-radius: 20px;
+    border-color: black;
+    background-color: azure;
+}
+
+.container2{
+    display: flex;
+    flex-flow: row;
+    width: 100%;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+}
+
+.container3{
+    display: flex;
+    flex-flow: row;
+    width: 100%;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+}
+.container4{
+    display: flex;
+    flex-flow: row;
+    width: 100%;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+}
+
+.container5{
+    display: flex;
+    flex-flow: row;
+    width: 100%;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+}
+.item{
+    
+    background-color: #4967B0;
+    height: 80px;
+    width: 80px;
+    border-radius: 15px;
+    font-size: x-large;
+   
+}
+
+.item2{
+    background-color: #9AADDB;
+    height: 80px;
+    width: 80px;
+    border-radius: 15px;
+    font-size: x-large;
+   
+}
+ 
+.body{
+    background-image: url(imagen\ sumas.jpg);
+}
